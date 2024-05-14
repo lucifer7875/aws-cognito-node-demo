@@ -12,8 +12,8 @@ const jwt = require('jsonwebtoken');
 // };
 
 const poolData = {
-    UserPoolId: 'ap-south-1_Eun5Irk3e',
-    ClientId: 'nj21p2oqa0cl4a329vqtbt9tl'
+    UserPoolId: process.env.USERPOOLID,
+    ClientId: process.env.CLIENTID
 };
 
 const aws_region = "ap-south-1";
